@@ -10,3 +10,13 @@
 :root{
     
 } */
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelview-wrapper{
+    width: 500px;
+    height: 500px;
+    background-color: #00000028;
+}
