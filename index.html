@@ -18,14 +18,15 @@
 </head>
 	<body>
 		<div class="modelview-wrapper">
-			<model-viewer class="model-style" src="src/gaz_med.glb"
-              alt="gaz"
-              ar
-              auto-rotate
-              camera-controls
-			  shadow-intensity="1"
-			  touch-action="pan-y"
-			  scale="0.121 0.121 0.121">
+			<model-viewer class="model-style" 
+			ios-src="src/10.reality"
+			ar-modes="scene-viewer webxr quick-look"
+			alt="flower"
+			ar
+			scale = "1.0 1.0 1.0"
+			shadow-intensity="1"
+			autoplay
+			>
 			  <button slot="ar-button" class="button-ar">Посмотреть в AR!</button>
             </model-viewer>
 		</div>
